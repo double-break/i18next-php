@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "I18Next\\": "src/I18Next"
+            "Pkly\\I18Next\\": "src/I18Next"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "I18Next\\Tests\\": "tests"
+            "Pkly\\I18Next\\Tests\\": "tests"
         }
     }
 }
