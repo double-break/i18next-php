@@ -1,17 +1,11 @@
 {
-    "name": "pkly/i18next-php",
+    "name": "erneststaug/i18next-php",
     "description": "A port of the i18next JS library for PHP",
     "keywords": [
         "i18n",
         "translation"
     ],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Pawel Kakol [Ly]",
-            "email": "kakolp95@gmail.com"
-        }
-    ],
     "type": "project",
     "require": {
 		"php": ">=7.3",
@@ -28,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Pkly\\I18Next\\": "src/I18Next"
+            "I18Next\\": "src/I18Next"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Pkly\\I18Next\\Tests\\": "tests"
+            "I18Next\\Tests\\": "tests"
         }
     }
 }
