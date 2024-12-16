@@ -135,14 +135,14 @@ class I18n {
     /*
      * These are added to eliminate deprication notices in php 8.4
      */
-    protected \Callable $getResource;
-    protected \Callable $addResource;
-    protected \Callable $addResources;
-    protected \Callable $addResourceBundle;
-    protected \Callable $removeResourceBundle;
-    protected \Callable $hasResourceBundle;
-    protected \Callable $getResourceBundle;
-    protected \Callable $getDataByLanguage;
+    protected \Closure $getResource;
+    protected \Closure $addResource;
+    protected \Closure $addResources;
+    protected \Closure $addResourceBundle;
+    protected \Closure $removeResourceBundle;
+    protected \Closure $hasResourceBundle;
+    protected \Closure $getResourceBundle;
+    protected \Closure $getDataByLanguage;
 
 
     /**
